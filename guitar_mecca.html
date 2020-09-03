@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap Cheat Sheet</title>
+        <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Balthazar' rel='stylesheet'>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Grandstander:wght@300&display=swap" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+    </head>
+
+<header>
+    <nav id="main-nav">
+        <img src="/pictures/guitar_pic.png" id="header-nav-guitar1">
+        <ul>
+            <a href="#" > <li>Home</li></a>
+            <a href="#about-section" ><li>About</li></a>
+            <a href="#link-chord-page" ><li>Chords</li></a>
+            <a href="#tuning-container" ><li>Tuner</li></a>
+            <a href="#Games" ><li>Game</li></a>
+        </ul>
+        <img src="/pictures/guitar_pic.png" id="header-nav-guitar2">
+    </nav>
+</header>
+
+<body>
+    
+    <div class="container section">
+        <h1 class="title text-center">
+            <b>
+                GUITAR MECCA
+            </b>
+        </h1>
+        <div class="row pics">
+            <div class="title-pictures col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <img src="/pictures/jimi_hendrix.jpg" class="title-pictures-imgs img-responsive" id="title-picture-hendrix">
+            </div>
+            <div class="title-pictures col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <img src="/pictures/santana.jpg" class="title-pictures-imgs img-responsive" id="title-picture-santana">
+            </div>
+            <div class="title-pictures col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <img src="/pictures/sam_bush.jpg" class="title-pictures-imgs img-responsive" id="title-picture-bush">
+            </div>
+            <div class="title-pictures col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                <img src="/pictures/tony_rice.jpg" class="title-pictures-imgs img-responsive" id="title-picture-rice">
+            </div>
+        </div>
+    </div>
+    <div id="about-section"></div>
+    <div class="container section" id="about-container">
+        <h1 class="about text-center">
+            About
+        </h1>
+        <blockquote class="quote text-center">
+            Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything
+            <footer>
+                 Plato
+            </footer>
+        </blockquote> 
+        <p class='paragraph'>
+            This is a work-in-progress site intended to give certain tools to music enthusiasts. It just so happens that I play guitar and mandolin, so I 
+            started with those first. As of now Guitar Mecca provides easy to use tuners for both guitar and mandolin players. These tuners may be 
+            updated in the future to allow for different tuning styles and other functionalities. 
+        </p>
+        
+    </div>
+    <div class="container section" id="tuning-container">
+        <div class="row">
+            <h2 class="section-head Jumbotron text-center">
+                Standard Guitar Tuning
+            </h2>
+        </div>
+        <div class="row">
+            <div class="tuner-notes col-lg-1">
+                <ul>
+                    <li>(high) E</li>
+                    <li>B</li>
+                    <li>G</li>
+                    <li>D</li>
+                    <li>A</li>
+                    <li>(low) E</li>
+                </ul>
+            </div>
+            <div class="tuner-btns col-lg-2">  
+                <ul id="guitar-tuner-btns">
+                    <li><button class="btn btn-default btn-tuner" id="tuner-0"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"> </button></li>
+                    <li><button class="btn btn-default btn-tuner" id="tuner-1"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"></button></li>
+                    <li><button class="btn btn-default btn-tuner" id="tuner-2"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"></button></li>
+                    <li><button class="btn btn-default btn-tuner" id="tuner-3"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"></button></li>
+                    <li><button class="btn btn-default btn-tuner" id="tuner-4"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"></button></li>
+                    <li><button class="btn btn-default btn-tuner" id="tuner-5"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"></button></li>
+                </ul>
+            </div>
+            <div class="col-lg-1">
+                <img src="/pictures/headstock.png" id="tuner-guitar-headstock">
+                <img src="/pictures/yellow_line.png" id="tuner-yellow-line1">
+                <img src="/pictures/yellow_line.png" id="tuner-yellow-line2">
+            </div>
+        </div>
+    </div>
+    <div class="container section">
+        <div>
+            <div class="row">
+                <h2 class="section-head Jumbotron text-center">
+                    Standard Mandolin Tuning
+                </h2>
+            </div>
+            <div class="row">
+                <div class="tuner-notes col-lg-1">
+                    <ul>
+                        <li>E</li>
+                        <li>A</li>
+                        <li>D</li>
+                        <li>G</li>
+                    </ul>
+                </div>
+                <div class="tuner-btns col-lg-2">  
+                    <ul id="mandolin-tuner-btns">
+                        <li><button class="btn btn-default btn-tuner" id="tuner-6"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"> </button></li>
+                        <li><button class="btn btn-default btn-tuner" id="tuner-7"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"></button></li>
+                        <li><button class="btn btn-default btn-tuner" id="tuner-8"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"></button></li>
+                        <li><button class="btn btn-default btn-tuner" id="tuner-9"><img src="/pictures/play-glyphicon-trans.png" class="tune-btn-img"></button></li>
+                    </ul>
+                </div>
+                <div class="col-lg-1">
+                    <img src="/pictures/Mandolin_headstock.png" id="tuner-mandolin-headstock">
+                    <img src="/pictures/yellow_line.png" id="tuner-yellow-line3">
+                    <img src="/pictures/yellow_line.png" id="tuner-yellow-line4">
+                </div>
+            </div>
+            <p id="link-chord-page"></p>
+        </div>
+    </div>
+    <div class="container section">
+        <h1 class="section-head text-center" id="Chords">
+            Chords
+        </h1>
+        <div class="row">
+            <div class="col-lg-6 guitar_chords_title text-center">
+                <h2>
+                    Guitar Chords
+                </h2>
+            </div>
+            <div class="col-lg-6 mandolin_chords_title text-center">
+                <h2>
+                    Mandolin Chords
+                </h2>
+            </div>
+        </div>
+        <div class="row chord_lists">
+            <div class="col-lg-1">
+                <ul class="list-unstyled">
+                    <li><img src="/pictures/Guitar_chords/A_chord.png" class="guitar_chords" ></li>
+                    <li><img src="/pictures/Guitar_chords/C_chord.png" class="guitar_chords"></li>
+                    <li><img src="/pictures/Guitar_chords/E_chord.png" class="guitar_chords"></li>
+                    <li><img src="/pictures/Guitar_chords/G_chord.png" class="guitar_chords"></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul class="guitar-chord-btns list-unstyled">
+                    <li><button class="btn btn-default btn-chords" id="Guitar-A"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Guitar-C"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Guitar-E"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Guitar-G"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                </ul>
+            </div>
+            <div class="col-lg-1">
+                <ul class="list-unstyled">
+                    <li><img src="/pictures/Guitar_chords/B_chord.png" class="guitar_chords"></li>
+                    <li><img src="/pictures/Guitar_chords/D_chord.png" class="guitar_chords"></li>
+                    <li><img src="/pictures/Guitar_chords/F_chord.png" class="guitar_chords"></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul class="guitar-chord-btns list-unstyled">
+                      <li><button class="btn btn-default btn-chords" id="Guitar-B"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Guitar-D"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Guitar-F"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                </ul>
+            </div>
+            <div class="col-lg-1">
+                <ul class="list-unstyled">
+                    <li><img src="/pictures/Mandolin_chords/A_chord.jpg" class="mandolin_chords"></li>
+                    <li><img src="/pictures/Mandolin_chords/C_chord.jpg" class="mandolin_chords"></li>
+                    <li><img src="/pictures/Mandolin_chords/E_chord.jpg" class="mandolin_chords"></li>
+                    <li><img src="/pictures/Mandolin_chords/G_chord.jpg" class="mandolin_chords"></li>
+                </ul>
+            </div>
+            <div class="col-lg-2">
+                <ul class="mandolin-chord-btns list-unstyled">
+                    <li><button class="btn btn-default btn-chords" id="Mandolin-A"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Mandolin-C"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Mandolin-E"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                        </svg></button></li>
+                    <li><button class="btn btn-default btn-chords" id="Mandolin-G"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                        </svg></button></li>
+                </ul>
+            </div>
+            <div class="col-lg-1">
+                <ul class="list-unstyled">
+                    <li><img src="/pictures/Mandolin_chords/B_chord.jpg" class="mandolin_chords"></li>
+                    <li><img src="/pictures/Mandolin_chords/D_chord.jpg" class="mandolin_chords"></li>
+                    <li><img src="/pictures/Mandolin_chords/F_chord.jpg" class="mandolin_chords"></li>
+                </ul>
+            </div>
+            <div class="col-lg-1">
+                <ul class="mandolin-chord-btns list-unstyled">
+                    <li><button class="btn btn-default btn-chords" id="Mandolin-B"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Mandolin-D"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                      <li><button class="btn btn-default btn-chords" id="Mandolin-F"><svg class="bi bi-play" width="2em" height="2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10.804 8L5 4.633v6.734L10.804 8zm.792-.696a.802.802 0 010 1.392l-6.363 3.692C4.713 12.69 4 12.345 4 11.692V4.308c0-.653.713-.998 1.233-.696l6.363 3.692z" clip-rule="evenodd"/>
+                      </svg></button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container section" id="Games">
+        <h1 class="section-head text-center" id="title">
+            Games
+        </h1>
+        <div class="row games">
+            <div class="col col-lg-4" id="guess-notes-game">
+                <div class="guitar-guess-game-title Jumbotron">
+                    <h1>Guitar Chord Guessing Game</h1>
+                </div>
+                <div class="progress" >
+                    <div class="progress-bar" id="prog-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0/20</div>
+                </div>
+                <output class="output" name = "">
+                    
+                </output>
+                <div class="form-group d-inline-flex">
+                    <input type="text" class="game-input-text" placeholder="Major Note" aria-label="Recipient's username" style="display: inline;">
+                    <button class="enter-btn btn btn-outline-secondary" type="button">Enter</button>
+                </div>
+                <button class="play-btn btn-lg btn-primary" type="button">Play</button>
+            </div>
+            <!-- still a work in progress -->
+            <!-- <div class="col-lg-1" id="guitar-hero-jr">
+                <div class="guitar-hero-jr-title Jumbotron">
+                    <h1>Guitar Hero Jr</h1>
+                </div>
+                <div class="btn-group note-projectors" role="group" aria-label="Basic example">
+                    <button type="button" class="string-reps" id="first-string btn-secondary">1</button>
+                    <button type="button" class="string-reps" id="second-string btn-secondary">2</button>
+                    <button type="button" class="string-reps" id="third-string btn-secondary">3</button>
+                    <button type="button" class="string-reps" id="fourth-string btn-secondary">4</button>
+                    <button type="button" class="string-reps" id="fifth-string btn-secondary">5</button>
+                    <button type="button" class="string-reps" id="sixth-string btn-secondary">6</button>
+                </div>
+                <div class="btn-group note-receptors" role="group" aria-label="Basic example">
+                    <p id="keys-GHJr">
+                        Keyboard Keys to Press: 
+                    </p>
+                    <button type="button" class="string-reps" id="first-string btn-secondary">1</button>
+                    <button type="button" class="string-reps" id="second-string btn-secondary">2</button>
+                    <button type="button" class="string-reps" id="third-string btn-secondary">3</button>
+                    <button type="button" class="string-reps" id="fourth-string btn-secondary">4</button>
+                    <button type="button" class="string-reps" id="fifth-string btn-secondary">5</button>
+                    <button type="button" class="string-reps" id="sixth-string btn-secondary">6</button>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+</body> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="guitar_mecca_script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</html>

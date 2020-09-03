@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "C:\\Users\\Peter\\AppData\\Local\\Microsoft VS Code\\Workspaces\\bootstrap_cheatsheet"
+		},
+		{
+			"path": "C:\\Users\\Peter\\AppData\\Local\\Microsoft VS Code\\Workspaces\\HTML testing\\Javascript tutorial"
+		},
+		{
+			"path": "C:\\Users\\Peter\\AppData\\Local\\Microsoft VS Code\\Workspaces\\bootstrap_experiments"
+		},
+		{
+			"path": "C:\\Users\\Peter\\AppData\\Local\\Microsoft VS Code\\Workspaces\\HTML testing\\bunch of websites\\personal html test"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Guitar Mecca"
+	}
+}
