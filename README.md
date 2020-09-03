@@ -1,4 +1,5 @@
 # Guitar-Mecca
+<img src="./pictures/Guitar Mecca title screen.png">
 I created this project over the summer of 2020 to practice using html, css, javascript, and Bootstrap. This is a 
 work-in-progress site intended to give certain tools to music enthusiasts. It just so happens that I play guitar 
 and mandolin, so I started creating tools related to those first.
